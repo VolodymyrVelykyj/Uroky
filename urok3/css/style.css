@@ -1,0 +1,92 @@
+@import url("reset.css");
+
+a {
+	color: blue;
+}
+.forbidden-retreat {
+	color: #fff;
+}
+
+.top {
+	color: #0072bc;
+}
+.top span {
+	color: #ffd600;
+}
+.top span > span {
+	color: #0072bc;
+}
+.bottom {
+	color: #ffd600;
+}
+
+.rainbow > * {
+	color: red;
+}
+
+.red + div {
+	color: orange;
+}
+#yellow {
+	color: yellow;
+}
+
+.green.green-up {
+	color: green;
+}
+
+.rainbow .blue {
+	color: blue;
+}
+.flucent {
+	color: #13bbe6;
+}
+
+.violet {
+	color: violet;
+}
+
+.forbidden-retreat-plus,
+.forbidden-retreat-plusultra {
+	color: #fff;
+}
+.side-quest {
+	color: red;
+}
+
+.side-quest ul > li ~ li {
+	color: green;
+}
+
+.side-quest ul > li > ul {
+	color: blue;
+}
+
+.side-quest ul > li > ul > li ~ li {
+	color: orange;
+}
+
+.side-quest ul > li > ul > li > ol {
+	color: #4597f7;
+}
+.side-quest ul > li > ul > li > ol > li ~ li {
+	color: #5d5d5d;
+}
+
+.side-quest ul > li > ul > li > span {
+	color: #a0f0fc;
+}
+
+footer > p + div {
+	color: #301185;
+}
+
+[target="_blank"] {
+	color: #0a972d;
+}
+
+/* 
+не розумію чому, але якщо вписати значення селектора атрибуту недокінця, наприклад "_bla", то наслідується
+колір який я поставив для всіх тегів а, тільки написавши значення атрибуту повністю, спрацьовує
+той колір який я хотів поставити
+*/
